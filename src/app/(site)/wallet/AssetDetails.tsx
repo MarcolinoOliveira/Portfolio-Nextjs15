@@ -31,7 +31,8 @@ const AssetDetails = ({ name, clear }: AssetDetailsProps) => {
     profit: 0,
     percent: 0,
     avaregePrice: 0,
-    valueSell: 0
+    valueSell: 0,
+    historicalApplied: 0
   })
 
   useEffect(() => {
